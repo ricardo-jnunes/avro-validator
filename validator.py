@@ -39,4 +39,4 @@ try:
 except Exception as e:
     validation_result = f"Error on validating: {str(e)}"
 
-validation_result
+print(validation_result)
